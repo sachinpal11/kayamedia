@@ -10,7 +10,11 @@ function App() {
     <div className="w-full text-white font-poppins text-xl bg-neutral-950">
       <Header />
       <UiElement />
-      <Method />
+      <Method
+        title={"The Haus method®"}
+        subtitle={"Our proven process for turning visitors into customers"}
+        Array={"Method"}
+      />
     </div>
   );
 }
