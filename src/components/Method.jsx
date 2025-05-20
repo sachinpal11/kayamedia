@@ -6,6 +6,8 @@ import {
   PiSquaresFour,
   PiChartLineUp,
   PiLightbulb,
+  PiNavigationArrowThin,
+  PiPlant,
 } from "react-icons/pi";
 
 const methods = [
@@ -40,14 +42,14 @@ const MVP = [
 `,
   },
   {
-    icon: <PiClipboardText size={28} />,
+    icon: <PiPlant size={28} />,
     title: "Seed",
     description: `Convert more users and lower churn rates. We help turn your key numbers green and make investors eager to fund your next growth phase.
 
 `,
   },
   {
-    icon: <PiSquaresFour size={28} />,
+    icon: <PiChartLineUp size={28} />,
     title: "Growth",
     description: `Add features without breaking what works. We help you scale smoothly, improve revenue streams, and keep your growing user base happy.
 
@@ -55,7 +57,7 @@ const MVP = [
   },
 ];
 
-function Method({ title, subtitle, Array }) {
+function Method({ title, subtitle, Array = "" }) {
   return (
     <section className="bg-black py-16 px-4 flex flex-col items-center gap-2 text-white text-center">
       <h2 className="text-4xl md:text-7xl w-3/4 text-center font-light mb-2">
