@@ -4,6 +4,7 @@ import LocomotiveScroll from "locomotive-scroll";
 import UiElement from "./components/ui/UiElement";
 import Method from "./components/Method";
 import BentoGridSection from "./components/BentoGridSection";
+import ServicesSection from "./components/ServicesSection";
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
@@ -24,6 +25,7 @@ function App() {
         Array={"MVP"}
       />
       <BentoGridSection />
+      <ServicesSection />
     </div>
   );
 }
