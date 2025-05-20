@@ -15,6 +15,13 @@ function App() {
         subtitle={"Our proven process for turning visitors into customers"}
         Array={"Method"}
       />
+      <Method
+        title={"From MVP to unicorn: design that grows with you"}
+        subtitle={
+          "Solutions for wherever you are in your SaaS journey—and where you're going next"
+        }
+        Array={"MVP"}
+      />
     </div>
   );
 }
